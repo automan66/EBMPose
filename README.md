@@ -1,4 +1,4 @@
-# EBMPose
+## EBMPose
 Code for "Learning Energy-Based Models for 3D Human Pose Estimation"
 
 This work addresses the limitation of MSE-based 3D human pose estimation methods, which assume a fixed-variance Gaussian distribution and thus have limited expressiveness. We propose a conditional energy-based model (EBM) that learns an energy function between 2D and 3D joints and refines the initial 3D pose via gradient-based optimization. 
