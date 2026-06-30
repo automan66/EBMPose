@@ -1,4 +1,4 @@
-## EBMPose
+# EBMPose
 Code for "Learning Energy-Based Models for 3D Human Pose Estimation"
 
 This work addresses the limitation of MSE-based 3D human pose estimation methods, which assume a fixed-variance Gaussian distribution and thus have limited expressiveness. We propose a conditional energy-based model (EBM) that learns an energy function between 2D and 3D joints and refines the initial 3D pose via gradient-based optimization. 
@@ -32,7 +32,7 @@ ${POSE_ROOT}/
 
 ### Evaluation and Training
 
-To reproduce the results of the model on the Human3.6M dataset, load the energy model weights from the `checkpoint` directory and the IGANet model weights from `previous_dir`:
+To reproduce the results of the model on the Human3.6M dataset, load the [energy-based model weights](https://pan.baidu.com/s/1_QAxh0h1gMIJHQMLUcF_kg?pwd=tacv) from the `checkpoint` directory and the [IGANet model weights](https://pan.baidu.com/s/1-B5wh1Sbp9xlcXDFT7YD-A?pwd=yqaf) from `previous_dir`:
 
 ```bash
 python main.py --reload --previous_dir './pre_trained_model' --model model_IGANet --ebm_ckpt './checkpoint/nice_ebm.pth'
